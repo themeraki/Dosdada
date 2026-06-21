@@ -1,0 +1,7 @@
+psutil
+requests
+pillow
+pyautogui
+win10toast
+numpy
+opencv-python
