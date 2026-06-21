@@ -1,18 +1,1 @@
-# build_config.yaml
-project_name: "UltimateAgent"
-version: "1.0.0"
 
-build_settings:
-  entry_point: "agent.py"
-  output_dir: "dist"
-  onefile: true
-  noconsole: true
-  icon: "assets/icon.ico" # Optional: add an icon if you have one
-  
-dependencies:
-  - psutil
-  - requests
-  - pillow
-  - pyautogui
-  - win10toast
-  - numpy
