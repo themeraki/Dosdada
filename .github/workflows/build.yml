@@ -24,7 +24,7 @@ jobs:
           pyinstaller --onefile --noconsole --name "UltimateAgent" agent.py
 
       - name: Upload Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: UltimateAgent-EXE
           path: dist/UltimateAgent.exe
